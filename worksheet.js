@@ -42,5 +42,6 @@ console.log(name_height);
 console.log(name_height[0]);
 // Get an array of all first names
 first_name= characters.map(character => character.name.split(' ')[0]);
+console.log(characters[0].name.split(' ').length)
 console.log(characters[0].name.split(' '))
 console.log(first_name);
